@@ -160,12 +160,12 @@
   filter: grayscale(50%);
 }
 
-.hue-rotate {
-  filter: hue-rotate(30deg);
-}
-
 .saturate {
   filter: saturate(360%);
+}
+
+.hue-rotate {
+  filter: hue-rotate(30deg);
 }
 
 .invert {
