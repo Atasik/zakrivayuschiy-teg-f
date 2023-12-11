@@ -4,9 +4,9 @@
     --main-background-color: #fff;
     --main-font-family: 'Inter', sans-serif;
     --accent-font-family: 'Press Start 2P', sans-serif;
-    --card-title-weight: 700;
-    --main-font-weight: 400;
-    --button-text-font-weight: 400;
+    --card-title-weight: "wght" 700;
+    --main-font-weight: "wght" 400;
+    --button-text-font-weight: "wght" 400;
     --heart-color: #FF0000;
     --accent-color: #000;
     --button-text-color: #fff;

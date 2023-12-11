@@ -146,7 +146,7 @@
 
 .card__title {
   padding: 5px 10px;
-  font-weight: var(--card-title-weight);
+  font-variation-settings: var(--card-title-weight);
   font-size: 18px;
 }
 
@@ -215,11 +215,19 @@
   inset-inline-end: 25px;
 }
 
+@supports (text-stroke: 1px var(--background-color)) or
+  (-webkit-text-stroke: 1px var(--background-color)) {
+  .card__image-heading {
+    text-shadow: none;
+    -webkit-text-stroke: 1px var(--background-color);
+  }
+}
+
 .card__text {
   margin-inline-start: 25px;
   margin-inline-end: 25px;
   font-family: var(--main-font-family);
-  font-weight: var(--main-font-weight);
+  font-variation-settings: var(--main-font-weight);
   font-size: 18px;
   line-height: 21px;
 }
@@ -241,10 +249,10 @@
 }
 
 .card__icon-button {
-  align-content: center;
   width: 44px;
   height: 38px;
-  border: none;
+  border: 2px solid transparent;
+  transition: border 0.3s ease;
   padding-inline-start : 0;
   padding-inline-end: 0;
   padding-block-end: 0px;
@@ -453,7 +461,7 @@
 
 .ok-button .button__text {
   font-family: var(--accent-font-family);
-  font-weight: var(--button-text-font-weight);
+  font-variation-settings: var(--button-text-font-weight);
   font-size: 14px;
   font-style: normal;
   line-height: 90%;
