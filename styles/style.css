@@ -60,6 +60,7 @@
 }
 
 .logo {
+  font-weight: var(--header-font-weight);
   margin-block-start: 136px;
   margin-block-end: 20px;
   font-family: var(--accent-font-family);
@@ -462,7 +463,7 @@
 
 .ok-button .button__text {
   font-family: var(--accent-font-family);
-  font-variation-settings: var(--button-text-font-weight);
+  font-variation-settings: var(--header-font-weight);
   font-size: 14px;
   font-style: normal;
   line-height: 90%;
