@@ -462,8 +462,7 @@
 }
 
 .ok-button .button__text {
-  font-family: var(--accent-font-family);
-  font-variation-settings: var(--header-font-weight);
+  font-weight: var(--header-font-weight);
   font-size: 14px;
   font-style: normal;
   line-height: 90%;
