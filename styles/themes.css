@@ -8,7 +8,7 @@
 :root.theme-dark {
     --main-background-color: #000;
     --accent-color: #00CC14;
-    --button-text-color: #00CC14;
+    --button-text-color: #00CC14; /*mix-blend-mode: difference;*/
     --main-font-weight: "wght" 465;
     --card-title-weight: "wght" 785;
     --background-color: #000;

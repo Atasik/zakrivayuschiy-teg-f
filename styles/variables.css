@@ -2,8 +2,8 @@
 
 :root {
     --main-background-color: #fff;
-    --main-font-family: 'Inter', sans-serif;
-    --accent-font-family: 'Press Start 2P', sans-serif;
+    --main-font-family: 'Inter';
+    --accent-font-family: 'Press Start 2P';
     --card-title-weight: "wght" 700;
     --main-font-weight: "wght" 400;
     --header-font-weight: "wght" 400;
