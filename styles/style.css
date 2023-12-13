@@ -53,8 +53,9 @@
 .header {
   display: flex;
   flex-direction: column;
-  padding: 0 120.5px;
-  max-width: 700px;
+  align-items: center;
+  max-width:  700px;
+  width: 100%;
   border: 2px solid var(--accent-color);
   text-align: center;
   background-color: var(--main-background-color);
@@ -64,7 +65,7 @@
   margin-block-start: 136px;
   text-decoration: none;
   margin-block-end: 20px;
-  font-family: var(--accent-font-family), 'sans-serif';
+  font-family: var(--accent-font-family), fantasy, 'sans-serif';
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   text-transform: uppercase;
 }
@@ -72,7 +73,7 @@
 .header__paragraph {
   margin-block-end: 25px;
   font-weight: var(--header-font-weight);
-  font-family: var(--accent-font-family), 'sans-serif';
+  font-family: var(--accent-font-family), fantasy, 'sans-serif';
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   text-transform: uppercase;
 }
@@ -93,7 +94,7 @@
 .theme-menu__button {
   display: block;
   border-style: none;
-  font-family: var(--accent-font-family), 'sans-serif';
+  font-family: var(--accent-font-family), fantasy, 'sans-serif';
   font-size: 14px;
   text-transform: uppercase;
   background-color: var(--main-background-color);
@@ -144,6 +145,7 @@
   display: flex;
   flex-direction: column;
   max-width: 700px;
+  width: 100%;
   border: 2px solid var(--accent-color);
   background-color: var(--main-background-color);
 }
@@ -208,7 +210,7 @@
   z-index: 1;
   opacity: 0.5;
   color: var(--accent-color);
-  font-family: var(--accent-font-family), 'sans-serif';
+  font-family: var(--accent-font-family), fantasy, 'sans-serif';
   font-size: 14px;
   text-shadow: 
     -1px 0 var(--background-color),
@@ -278,7 +280,7 @@
   position: relative;
   display: block;
   border: 2px solid var(--accent-color);
-  font-family: var(--accent-font-family), 'sans-serif';
+  font-family: var(--accent-font-family), fantasy, 'sans-serif';
   font-size: 14px;
   background-color: var(--main-background-color);
   transition: box-shadow 0.3s ease;
@@ -360,7 +362,8 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 30px;
-  width: 357px;
+  max-width: 357px;
+  width: 100%;
   border: 2px solid var(--accent-color);
   padding: 29.5px 30.5px 28.5px 29.5px;
   background-color: var(--main-background-color);
@@ -385,7 +388,7 @@
 
 .dialog__text {
   max-width: 234px;
-  font-family: var(--accent-font-family), 'sans-serif';
+  font-family: var(--accent-font-family), fantasy, 'sans-serif';
   font-size: 14px;
   line-height: 150%;
   text-align: start;
@@ -407,7 +410,6 @@
 
 @media (width <= 375px) {
   .header {
-    max-width: 375px;
     padding: 0 14px;
   }
 
@@ -426,7 +428,7 @@
   }
 
   .dialog {
-    width: 341px;
+    max-width: 341px;
     padding: 30px 40px 30px 40px;
   }
 
